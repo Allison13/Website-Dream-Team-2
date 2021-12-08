@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      AllisonCo.Orders</title>
+    <link rel="stylesheet" href="../CssF/orders.css">
+           <link rel="shortcut icon" type="image/jpg" href="../img/favicon">
+        <!---------------------- Fonts ---------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Vidaloka&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+    <!---------------------- Fonts ---------------------->
+
+  </head>
+  <body>
+        <header>
+           <!--Nav-------------------------------------------------------->
+          <img src="../img/LogoIdea" class="logo" width="200" height="100">
+             <aside> 
+                 <nav class="Nav">
+                   <ul>
+                                 <a class="bl" href="../index.html">Home</a>
+                                 <a class="bl" href="about.html">About</a>
+                                 <a class="bl" href="contacts.html">Contacts</a>
+                                 <a class="bl" href="creations.html">Creations</a>
+                                 <a class="bl" href="orders.html">Order</a>
+                   </ul> 
+                 </nav>
+           </aside>
+           <!--/Nav-------------------------------------------------------->
+          
+          
+           <!--Form------------------------------------------------------------->
+                
+            </header>
+      <!--Table------------------------------------------------------------------------------------------------------->
+    <table>
+      <tr class="tablehead header">
+      <td >Product</td>
+      <td >Price</td>
+      <td >Info</td>
+      </tr>
+      <tr class="info">
+      <td>Psyduck</td>
+        <td >$20</td>
+        <td >Roughly 7 inches in height</td>
+      </tr>
+      <tr class="info">
+      <td>PSS</td>
+        <td>$5</td>
+        <td>A key chain</td>
+      </tr>
+        <tr class="info">
+      <td>Luna Moon</td>
+        <td>$10</td>
+        <td>A symbol to support a lost life</td>
+      </tr>
+        <tr class="info">
+      <td>Scarletrope</td>
+        <td>$10</td>
+        <td>A sign for the Scarletrope Project</td>
+      </tr>
+        <tr class="info">
+      <td>Loki helmet</td>
+        <td>$10-$15</td>
+        <td>A wearable helmet (The Price depends on the size)</td>
+      </tr>
+        <tr class="info">
+      <td>Loki Alligator </td>
+        <td>$15</td>
+        <td>A figure of the Loki Alligator</td>
+      </tr>
+    </table>
+     <!--Table-------------------------------------------------------------------------->
+          <section class="OS">
+            <div class="OS-text">
+              <form id="OF" action="order.html" method="post">
+                  <h1 class="page-header">Order Sheet</h1>
+                  
+             <!--Consumer Info---------------------------------------------------------------------------------------------------------->
+                          <label for="FN" class="FN">First Name:</label><input type="text" placeholder="John"class="name os" id="FN" name="user_name"><br>  
+                         
+                           <label for="LN" class="LN"> Last Name:</label><input type="text" placeholder="Holdenstamen" class="os" class="name" id="LN" name="user_name"><br>
+                        
+                       
+                            <label for="SA" class="SA">Shipping Address:</label><input type="text" placeholder="655 North St.Bridgeport, CT 06606" class="os" id="SA" SA="Address"><br>
+               <!--/Consumer Info------------------------------------------------------------------------------------------------------>
+           
+                
+                 <!--Product Info------------------------------------------------------------------------------------------------------>
+                          <label for"product">Product:</label><select placeholder="Mubert"  class="os" id="product"><option>Psyduck</option>
+          <option>Loki Helmet</option>
+          <option>Luna Moon</option>
+          <option>Scarletrope</option>
+          <option>Bracelet</option>
+          <option>PSS Keychain</option>
+          <option>Loki Alligator</option>
+                    </select>
+                     <br>
+                    
+                 <h4 class="dsr">(If keychain customize it yourself)</h4>
+                        <label for="braclet" class="KC">Keychain text:</label> <input type="text" Placeholder="PSS" class="os"id="text">      
+                      <br>
+                <br>
+                    
+                    <h4 class="dsr">(Only one color per Product)</h4>
+                    <div id="product-color">
+                    <label for="os" class="PC">Product Color:</label>
+                                <select class="os">
+                                      <option>Red</option>
+                                        <option>Orange</option>
+                                        <option>Green</option>
+                                        <option>Blue</option>
+                                        <option>Black</option>
+                                        <option>White</option>
+                                        <option>Yellow</option>
+                                      </select>
+                                  </div>
+                 <!--/Product Info--------------------------------------------------------------------------------------------------------->
+                <br>
+             <button type="submit" id="button" class="os">Submit</button>
+          </form>
+        </div>
+          </section>
+     <!--/Form------------------------------------------------------------------------------------------------------------------------------------------>
+    

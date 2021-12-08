@@ -1,0 +1,162 @@
+/*-------------------------- START OF NAVBAR-----------------------------*/
+.Nav{
+ text-align: center;
+display: inline;
+  transition: transform .2s; 
+}
+ul{
+  list-style-type: none;
+margin:0; 
+  padding: 0;
+}
+a:hover{
+background-color: #c4ddf6;
+     transform: scale(1.5);
+}
+.bl{ 
+  display: inline-block;
+background-color: #adcae6;
+    color: white;
+  margin:; 
+  padding: 10px;
+  text-decoration: none; 
+  font-size: 20px; 
+width: 100px;
+}
+.bl:hover{
+background-color: #bcd4eb;
+    transform: scale(1.09);
+  transition:0.70s;
+  border:1.5px #bcd4eb solid;
+  border-bottom-color:#71a3d4;
+  border-right-color:#71a3d4;
+  box-shadow:1.5px 1.5px 1.5px #acc9e6;
+}
+/*-------------------------- END OF NAVBAR-----------------------------*/
+
+body{
+background-color: #c3ddf6; 
+} 
+  .OS{
+    margin: auto;
+    background-color:white;
+    box-shadow: 5px 5px 2px rgba(0,0,0,.15);
+    width:40%;
+  padding:20px 20px 20px 20px;
+  margin-top:40px;
+  height:80%;
+  
+  }
+.page-header{
+  text-align:center;
+font-family: 'Vidaloka', serif;
+  color: #73c0ff;
+}
+
+.instagram{
+border-radius:50%;  
+}
+.instagram:hover{
+transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  transform:scale(1.05);
+}
+.os{
+margin: 7px;
+}
+.FN, .LN, .SA, .KC, .PC{
+font-family: 'Tinos', serif;
+  font-size: 20px;
+}
+/*-------------------------- START OF TABLE-----------------------------*/
+table{
+  background-color:white;
+  padding-right:10px;
+   padding-bottom:10px;
+  position:relative;
+  left:10px;
+  box-shadow:4px 4px 3px rgba(0,0,0,.15);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding:3px;
+}
+td{
+  border:2px solid #adcae6;
+  font-size:25px;
+  padding:4px;
+}
+.tablehead{
+  color:#73c0ff;;
+}
+
+.info{
+  font-family: 'Lora', serif;
+}
+.tablehead{
+font-weight: bold;
+  font-family: 'Vidaloka', serif;
+}
+
+#product{
+padding:1px;
+}
+
+.dsr{
+font-size: 15px;
+}
+.submit{
+  padding:10px;
+  padding-right:10px;
+  margin-top:10px;
+  border-radius:10%;
+  width:200px;
+  color:white;
+  background:#adcae6;
+  border:1px solid #5d96ce;
+}
+/*-------------------------- END OF TABLE-----------------------------*/
+
+.logo{
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+  border:4px solid #f4faff;
+  background-color:white;
+  border-radius:25%;
+  margin-bottom: 10px;
+}
+
+
+.copyright{
+font-family: 'Newsreader', serif;
+}
+
+/*-------------------------- START OF MEDIA QUERIES-----------------------------*/
+
+@media screen and (max-width: 1000px){
+  .OS{
+    width:90%;
+    height:90%;
+  }
+  .bl{
+    display:block;
+    width:100%;
+    height:50px;
+  }
+
+
+#SA{
+width: 250px;
+}
+}
+@media screen and (min-width: 1025px){
+body{
+background: linear-gradient(#c3ddf6, #f6fafe);
+    margin-bottom:250px;
+  }
+}
+/*-------------------------- END OF MEDIA QUERIES-----------------------------*/
