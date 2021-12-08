@@ -1,0 +1,5 @@
+# Website-Dream-Team-2
+
+We are the creators of the website. Our names are Allison and Tahkale, and we are also known as "Dream Team #2," and we are both sophomores who attend JCM Early College High. Allison is a vivid creator of 3D-printed content, so we designed our website around her and some of her creations. Allison made all the 3D printed products seen on the website and sells them to family and friends. Tahkale didn’t know much about 3D printing at the beginning of this process, but has now come to love the process. Tahkale created the logo for our website and wrote most of the written content on the website, while Allison created the color schemes and proofread the website. We used blues because they are seen as calming colors. We both enjoyed coding and loved making the website. We both worked hard after school and through the holidays to learn coding and work on the website. Thank you for sponsoring us and providing us with the experience that we have gained throughout this program.
+
+Allison Smith and Tahkale Tomlinson-Dream Team # 2
