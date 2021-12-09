@@ -93,6 +93,11 @@ margin: 7px;
 .Blank{
   margin:8px;
 }
+
+.FN,.LN,.SA,.KC,.PC{
+ font-family:'Tinos', seriff;
+  font-size:20px
+}
 /*-------------------------- START OF TABLE-----------------------------*/
 table{
   background-color:white;
